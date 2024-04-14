@@ -1,0 +1,65 @@
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+50 * 36
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const greet = name => `Hello, ${name}!`;
+grape * 45,74,42,36,61,29,49,19,30,24,91,70,23,69,35,39,90,15,74,10,98,82,33
+function addNumbers(a, b) { return a + b; }
+false * 56
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+16,38,51,44,82,5,1,58,9,20,55,38,71,56,46,47,3,65,25,44,51,94,89,33,64,15,92,91,12,11,91,94,29,24,89,90,8,29,14,91,97,97,66,19,13,63,66,10,12,25,68,98,50,34,78,33,64,20,41,47,76,51,48,59,90,3,77,16,12,65,73,68,55,14,62,92,78,76,16,49 - 89
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+kiwi
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+kiwi
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+77 + 92,26,5,64,85
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const variableName = getRandomNumber();
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const removeDuplicates = array => Array.from(new Set(array));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+kiwi
+
+const sum = (a, b) => a + b;
+const capitalizeString = str => str.toUpperCase();
+const capitalizeString = str => str.toUpperCase();
+orange
+
+const reverseString = str => str.split("").reverse().join("");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+kiwi - false
+
+const getUniqueValues = array => [...new Set(array)];
+orange + 49
+const getRandomSubset = (array, size) => array.slice(0, size);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+true / orange
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const isEven = num => num % 2 === 0;
+
+apple + 58
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+grape * grape
+
+// This is a comment
+
+kiwi
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+let array = getRandomArray(); array.forEach(item => console.log(item));
